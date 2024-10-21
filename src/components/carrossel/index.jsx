@@ -20,37 +20,32 @@ function ImageSlider() {
       alt: "Imagem 1",
     },
     {
-      src: "/images/background5.jpeg",
-      alt: "Imagem 3",
+      src: "/images/namaste.jpeg",
+      alt: "Imagem 2",
     },
     {
       src: "/images/backgroundimg.jpeg",
-      alt: "Imagem 4",
+      alt: "Imagem 3",
     },
     {
       src: "/images/card.jpeg",
-      alt: "Imagem 5",
+      alt: "Imagem 4",
     },
     {
       src: "/images/chimasbackground.jpeg",
-      alt: "Imagem 6",
+      alt: "Imagem 5",
     },
     {
       src: "/images/entrada.jpeg",
+      alt: "Imagem 6",
+    },
+    {
+      src: "/images/profile2.jpeg",
       alt: "Imagem 7",
     },
     {
-      src: "/images/namaste.jpeg",
-      alt: "Imagem 9",
-    },
-
-    {
-      src: "/images/profile2.jpeg",
-      alt: "Imagem 11",
-    },
-    {
       src: "/images/psico.jpeg",
-      alt: "Imagem 12",
+      alt: "Imagem 8",
     },
   ];
 
