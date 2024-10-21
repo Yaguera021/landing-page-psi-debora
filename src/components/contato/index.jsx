@@ -42,7 +42,7 @@ export default function Contato() {
                     </p>
                     <p className='text-white opacity-80 mb-auto'>
                       {" "}
-                      8 AM - 5 PM
+                      9 AM - 5 PM
                     </p>
                     <p className='mt-8 text-lg font-medium text-white'>
                       (53) 98484-7284

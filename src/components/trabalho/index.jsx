@@ -31,10 +31,7 @@ export default function Trabalho() {
                       </svg>
                       <h5 className='text-2xl font-medium mt-6 mb-3'>TCC</h5>
                       <p className='mb-6 text-center'>
-                        A terapia cognitivo-comportamental é uma abordagem
-                        prática e focada em soluções. Através dela, você
-                        aprenderá a identificar e modificar padrões de
-                        pensamento e comportamento que causam sofrimento.
+                        A Terapia Cognitivo-Comportamental (TCC) é uma abordagem prática e focada em soluções que visa ajudar você a compreender e modificar padrões de pensamento e comportamento que causam sofrimento. Com técnicas e ferramentas específicas, você aprenderá a identificar crenças disfuncionais e substituí-las por pensamentos mais saudáveis, promovendo uma visão mais positiva e realista da vida. O objetivo é equipá-lo(a) com habilidades que não apenas aliviam os sintomas, mas que também ajudam a enfrentar desafios futuros de forma eficaz.
                       </p>
                     </div>
                   </div>
@@ -126,10 +123,7 @@ export default function Trabalho() {
                         Autoconhecimento
                       </h5>
                       <p className='mb-6 text-center'>
-                        Através da terapia, você será encorajado(a) a se
-                        conectar profundamente com quem você é, promovendo a
-                        descoberta e expressão da sua verdadeira essência, livre
-                        de julgamentos externos.
+                        Através da terapia, você será incentivado(a) a se conectar profundamente com sua verdadeira essência, promovendo um autoconhecimento genuíno e autêntico. Esse processo de descoberta e expressão é livre de julgamentos externos, permitindo que você explore suas emoções, valores e crenças sem restrições. O autoconhecimento é um passo fundamental para viver uma vida alinhada com quem você realmente é, promovendo maior satisfação e realização pessoal.
                       </p>
                     </div>
                   </div>
@@ -197,13 +191,7 @@ export default function Trabalho() {
                         Liberdade de Escolha
                       </h5>
                       <p className='mb-6 text-center'>
-                        Na TCC, você é guiado a reconhecer e transformar padrões
-                        de pensamento que afetam seu bem-estar emocional. Além
-                        disso, promove autonomia e capacita você a realizar
-                        mudanças significativas, ressaltando que cada escolha
-                        molda sua realidade. A vida é repleta de opções, e são
-                        elas que permitem construir um caminho mais satisfatório
-                        e alinhado com seus valores.
+                        Na TCC, você é guiado(a) a reconhecer e transformar padrões de pensamento que impactam seu bem-estar emocional. Essa abordagem não apenas promove a autonomia, mas também capacita você a realizar mudanças significativas na sua vida. Cada escolha molda sua realidade, e ao compreender isso, você passa a ver a vida como repleta de opções. A terapia ajuda a destacar seus valores pessoais, permitindo que você construa um caminho mais satisfatório e alinhado com suas aspirações e objetivos.
                       </p>
                     </div>
                   </div>
@@ -229,10 +217,7 @@ export default function Trabalho() {
                         Desenvolvimento&nbsp;
                       </h5>
                       <p className='mb-6 text-center'>
-                        O foco não é apenas aliviar o sofrimento, mas também
-                        promover o desenvolvimento contínuo. Acreditamos que o
-                        ser humano está em constante evolução, e a terapia
-                        humanista busca fomentar essa expansão de potencial.
+                        O foco da terapia não é apenas aliviar o sofrimento, mas também promover um desenvolvimento contínuo e sustentável. Acreditamos que o ser humano está em constante evolução, sempre em processo de construção e transformação. A terapia busca fomentar essa expansão de potencial, incentivando você a estabelecer metas pessoais, explorar novas habilidades e abraçar a mudança como parte da jornada de crescimento. Cada passo em direção ao seu desenvolvimento pessoal é celebrado, pois reconhecemos que a verdadeira evolução acontece quando você se permite ser quem realmente é.
                       </p>
                     </div>
                   </div>
