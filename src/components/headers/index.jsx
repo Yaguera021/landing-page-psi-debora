@@ -180,12 +180,12 @@ export default function Header() {
 
         <div className='container mx-auto px-4'>
           <div className='flex flex-wrap -mx-4'>
-            <div className='w-full lg:w-1/2 px-4 mb-16 lg:mb-0'>
+            <div className='w-full lg:w-1/2 px-4 mb-16 mt-8 lg:mb-0'>
               <div className='max-w-lg lg:max-w-none mx-auto'>
                 <h1 className='font-heading text-5xl xs:text-6xl sm:text-7xl xl:text-8xl text-center tracking-tight text-white mb-8'>
                   Débora Böhm
                 </h1>
-                <p className='text-lg text-white mb-10 text-center'>
+                <p className='text-2xl text-white mb-10 text-center'>
                   Olá e seja bem-vindo(a)!
                   <br />
                   Cuidar da sua saúde mental é essencial, e eu estou aqui para
@@ -218,7 +218,7 @@ export default function Header() {
               <div className='relative max-w-lg mx-auto lg:mr-0'>
                 <img
                   className='block w-full relative rounded-2xl'
-                  src='https://static.shuffle.dev/uploads/files/23/23785d7e7f7c1e5ed4bd54c7686b8ed80fb3c9c3/profile.jpeg'
+                  src='/src/assets/images/formada1.jpeg'
                   alt='Profile image of Debora Böhm'
                 />
               </div>

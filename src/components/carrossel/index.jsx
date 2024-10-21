@@ -1,48 +1,75 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-export default function Carrossel({ images, interval = 3000 }) {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    const slideInterval = setInterval(() => {
-      setCurrentIndex((prevIndex) =>
-        prevIndex === images.length - 1 ? 0 : prevIndex + 1,
-      );
-    }, interval);
-
-    return () => clearInterval(slideInterval);
-  }, [images.length, interval]);
-
-  const goToPrevious = () => {
-    setCurrentIndex(currentIndex === 0 ? images.length - 1 : currentIndex - 1);
+function ImageSlider() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: true,
   };
 
-  const goToNext = () => {
-    setCurrentIndex(currentIndex === images.length - 1 ? 0 : currentIndex + 1);
-  };
+  const images = [
+    {
+      src: "/src/assets/images/ambiente.jpeg",
+      alt: "Imagem 1",
+    },
+    {
+      src: "/src/assets/images/background5.jpeg",
+      alt: "Imagem 3",
+    },
+    {
+      src: "/src/assets/images/backgroundimg.jpeg",
+      alt: "Imagem 4",
+    },
+    {
+      src: "/src/assets/images/card.jpeg",
+      alt: "Imagem 5",
+    },
+    {
+      src: "/src/assets/images/chimasbackground.jpeg",
+      alt: "Imagem 6",
+    },
+    {
+      src: "/src/assets/images/entrada.jpeg",
+      alt: "Imagem 7",
+    },
+    {
+      src: "/src/assets/images/namaste.jpeg",
+      alt: "Imagem 9",
+    },
+
+    {
+      src: "/src/assets/images/profile2.jpeg",
+      alt: "Imagem 11",
+    },
+    {
+      src: "/src/assets/images/psico.jpeg",
+      alt: "Imagem 12",
+    },
+  ];
 
   return (
-    <div className='relative flex items-center justify-center'>
-      <div className='flex overflow-hidden w-full'>
-        <img
-          className='block w-full h-full object-cover rounded-2xl'
-          src={images[currentIndex]}
-          alt={`Imagem ${currentIndex + 1}`}
-        />
-      </div>
-
-      <button
-        onClick={goToPrevious}
-        className='absolute left-0 bg-gray-700 text-white p-2 rounded-full'
-      >
-        &#10094;
-      </button>
-      <button
-        onClick={goToNext}
-        className='absolute right-0 bg-gray-700 text-white p-2 rounded-full'
-      >
-        &#10095;
-      </button>
+    <div className='slider-container'>
+      <br />
+      <Slider {...settings}>
+        {images.map((image, index) => (
+          <div key={index} className='px-2 md:px-4'>
+            <img
+              className='block w-full h-full object-cover rounded-2xl'
+              src={image.src}
+              alt={image.alt}
+            />
+          </div>
+        ))}
+      </Slider>
     </div>
   );
 }
+
+export default ImageSlider;

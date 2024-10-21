@@ -1,4 +1,5 @@
 import React from "react";
+import ImageSlider from "../carrossel";
 
 export default function Sobre() {
   return (
@@ -8,7 +9,6 @@ export default function Sobre() {
           className='py-12 lg:py-24 bg-orange-50 bs-section-dragged'
           id='sobre'
         >
-          {" "}
           <div data-from-ai='false' className='flex flex-col items-center '>
             <h1 className='font-heading text-6xl text-center'>Sobre mim</h1>
             <br />
@@ -34,79 +34,7 @@ export default function Sobre() {
               Entre em contato
             </a>
           </div>
-          <div className='container mx-auto px-4'>
-            {" "}
-            <div className='flex flex-wrap -mx-4 mb-24'>
-              {" "}
-              <div className='w-full md:w-1/2 px-4 mb-6 md:mb-0'>
-                {" "}
-                <div> </div>{" "}
-              </div>{" "}
-              <div className='w-full md:w-1/2 px-4'>
-                {" "}
-                <div className='lg:max-w-lg md:ml-auto'> </div>{" "}
-              </div>{" "}
-            </div>{" "}
-          </div>{" "}
-          <div className='flex overflow-x-hidden'>
-            {" "}
-            <div className='w-1/3 lg:w-1/5 -ml-32 flex-shrink-0 px-2 md:px-4'>
-              {" "}
-              <img
-                className='block w-full h-full object-cover rounded-3xl'
-                src='https://static.shuffle.dev/uploads/files/23/23785d7e7f7c1e5ed4bd54c7686b8ed80fb3c9c3/user4.png'
-                alt
-              />{" "}
-            </div>{" "}
-            <div className='w-1/3 lg:w-1/5 flex-shrink-0 px-2 md:px-4'>
-              {" "}
-              <img
-                className='block w-full h-full object-cover rounded-3xl'
-                src='https://static.shuffle.dev/uploads/files/23/23785d7e7f7c1e5ed4bd54c7686b8ed80fb3c9c3/user6.png'
-                alt
-              />{" "}
-            </div>{" "}
-            <div className='w-1/3 lg:w-1/5 flex-shrink-0 px-2 md:px-4'>
-              {" "}
-              <img
-                className='block w-full h-full object-cover rounded-2xl'
-                src='https://static.shuffle.dev/uploads/files/23/23785d7e7f7c1e5ed4bd54c7686b8ed80fb3c9c3/WhatsApp-Image-2024-10-08-at-20-50-49.jpeg'
-                alt
-              />{" "}
-            </div>{" "}
-            <div className='w-1/3 lg:w-1/5 flex-shrink-0 px-2 md:px-4'>
-              {" "}
-              <img
-                className='block w-full h-full object-cover rounded-2xl'
-                src='https://static.shuffle.dev/uploads/files/23/23785d7e7f7c1e5ed4bd54c7686b8ed80fb3c9c3/psidebora.'
-                alt
-              />{" "}
-            </div>{" "}
-            <div className='w-1/3 lg:w-1/5 flex-shrink-0 px-2 md:px-4'>
-              {" "}
-              <img
-                className='block w-full h-full object-cover rounded-2xl'
-                src='https://static.shuffle.dev/uploads/files/23/23785d7e7f7c1e5ed4bd54c7686b8ed80fb3c9c3/profile2.jpeg'
-                alt
-              />{" "}
-            </div>{" "}
-            <div className='w-1/3 lg:w-1/5 flex-shrink-0 px-2 md:px-4'>
-              {" "}
-              <img
-                className='block w-full h-full object-cover rounded-2xl'
-                src='https://static.shuffle.dev/uploads/files/23/23785d7e7f7c1e5ed4bd54c7686b8ed80fb3c9c3/WhatsApp-Image-2024-10-08-at-20-57-12.jpeg'
-                alt
-              />{" "}
-            </div>{" "}
-            <div className='w-1/3 lg:w-1/5 flex-shrink-0 px-2 md:px-4'>
-              {" "}
-              <img
-                className='block w-full h-full object-cover rounded-2xl'
-                src='flow-assets/about/about-image2.png'
-                alt
-              />{" "}
-            </div>{" "}
-          </div>{" "}
+          <ImageSlider />
         </section>
       </>
     </React.Fragment>
