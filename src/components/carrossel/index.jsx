@@ -16,40 +16,40 @@ function ImageSlider() {
 
   const images = [
     {
-      src: "/src/assets/images/ambiente.jpeg",
+      src: "/images/ambiente.jpeg",
       alt: "Imagem 1",
     },
     {
-      src: "/src/assets/images/background5.jpeg",
+      src: "/images/background5.jpeg",
       alt: "Imagem 3",
     },
     {
-      src: "/src/assets/images/backgroundimg.jpeg",
+      src: "/images/backgroundimg.jpeg",
       alt: "Imagem 4",
     },
     {
-      src: "/src/assets/images/card.jpeg",
+      src: "/images/card.jpeg",
       alt: "Imagem 5",
     },
     {
-      src: "/src/assets/images/chimasbackground.jpeg",
+      src: "/images/chimasbackground.jpeg",
       alt: "Imagem 6",
     },
     {
-      src: "/src/assets/images/entrada.jpeg",
+      src: "/images/entrada.jpeg",
       alt: "Imagem 7",
     },
     {
-      src: "/src/assets/images/namaste.jpeg",
+      src: "/images/namaste.jpeg",
       alt: "Imagem 9",
     },
 
     {
-      src: "/src/assets/images/profile2.jpeg",
+      src: "/images/profile2.jpeg",
       alt: "Imagem 11",
     },
     {
-      src: "/src/assets/images/psico.jpeg",
+      src: "/images/psico.jpeg",
       alt: "Imagem 12",
     },
   ];
