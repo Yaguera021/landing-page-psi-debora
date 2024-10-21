@@ -218,7 +218,7 @@ export default function Header() {
               <div className='relative max-w-lg mx-auto lg:mr-0'>
                 <img
                   className='block w-full relative rounded-2xl'
-                  src='/src/assets/images/formada1.jpeg'
+                  src='/images/formada1.jpeg'
                   alt='Profile image of Debora Böhm'
                 />
               </div>
